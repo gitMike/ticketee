@@ -53,4 +53,8 @@ Ticketee::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+#ROOT mapping
+  root :to => "projects#index"
+  resources :projects
+
 end
